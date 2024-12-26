@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+h1 {
+    font-size: 40px; /* Increase size for task title */
+    color: #333; /* Darker color for title */
+}
+
+h2 {
+    font-size: 30px; /* Size for the subtitle */
+    margin-top: 30px;
+    color: #333;
+}
+
+.input-group {
+    max-width: 600px; /* Center the input group */
+    margin: 0 auto; /* Center align */
+    display: flex; /* Flexbox for input and button */
+    justify-content: center; /* Center the items */
+}
+
+input[type="text"] {
+    flex: 1; /* Allow input to take up remaining space */
+    padding: 10px; /* Padding for input */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    margin-left: 10px; /* Space between input and button */
+    padding: 10px 15px; /* Button padding */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.button-group {
+    margin: 20px 0; /* Margin around button group */
+}
+
+.list-group {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 20px auto; /* Space around the list */
+    max-width: 600px; /* Center the list */
+}
+
+.list-group-item {
+    display: flex; /* Use flexbox for list items */
+    justify-content: space-between; /* Space between text and buttons */
+    align-items: center; /* Center align items */
+    padding: 10px;
+    border: 1px solid #ccc; /* Border around list items */
+    border-radius: 4px; /* Rounded corners */
+    margin: 5px 0; /* Space between items */
+    background: white; /* White background for items */
+}
+
+.completed {
+    text-decoration: line-through; /* Strikethrough for completed tasks */
+    color: #6c757d; /* Grey color for completed tasks */
+}
+
+.delete-buttons {
+    margin-top: 20px; /* Space above delete buttons */
+}
+
+.btn {
+    background-color: #dc3545; /* Danger button color */
+    color: white; /* White text for danger button */
+}
+
+.btn-outline-danger {
+    background-color: #ffffff; /* White for outline button */
+    color: #dc3545; /* Text color for outline button */
+    border: 1px solid #dc3545; /* Border for outline button */
+}
+
+.btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545; /* Background color on hover */
+    color: white; /* White text on hover */
+}
+
+
